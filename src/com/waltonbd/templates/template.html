@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Walton Camera Test Output</title>
+<style>
+/* Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/
+
+body {
+  color: #333;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  margin: 10;
+  padding: 10;
+}
+
+/* Report logo and device name */
+table.title {
+  border-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+table.title img{
+	max-width:150px;
+}
+
+table.summary {
+  background-color: #a0b7d8;
+  border: 0 solid #a5c639;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.summary th {
+  background-color: #114c9d;
+  color:#fff;
+  font-size: 1.2em;
+  padding: .5em;
+}
+
+table.summary td {
+  border: 0 inset #808080;
+  font-size: 1em;
+  padding: .5em;
+  vertical-align: top;
+}
+
+table.testsummary {
+  background-color: #a0b7d8;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.testsummary th {
+  background-color: #114c9d;
+  border: 1px outset #808080;
+  padding: .5em;
+}
+
+table.testsummary td {
+  border: 1px outset #a5c639;
+  padding: .5em;
+  text-align: center;
+}
+
+table.testdetails {
+  background-color: #a0b7d8;
+  border-collapse: collapse;
+  border-color: #a5c639;
+  border-width: 1;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  width: 95%;
+}
+
+table.testdetails th {
+  background-color: #114c9d;
+  border: 1px outset #808080;
+  height: 2em;
+  padding: .2em;
+  color:#FFF;
+}
+
+table.testdetails td {
+  border: 1px outset #114c9d;
+  padding: .2em;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.testdetails td.module {
+  background-color: #fff;
+  border: 0;
+  font-weight: bold;
+}
+
+table.incompletemodules {
+  background-color: #d4e9a9;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.incompletemodules th {
+  background-color: #a5c639;
+  border: 1px outset #808080;
+  padding: .5em;
+}
+
+table.incompletemodules td {
+  border: 1px outset #a5c639;
+  padding: .5em;
+  text-align: center;
+}
+
+/* Test cell details */
+td.failed {
+  background-color: #fa5858;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  
+}
+td.passed {
+  background-color: #c5ffef;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  
+}
+td.failed div, td.passed div{
+	text-align:center;
+	margin-left:auto; margin-right:auto;
+}
+
+td.failuredetails {
+  text-align: left;
+}
+
+td.titledetails img{
+	max-width:300px;
+	width:100%;
+}
+
+td.pass {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+td.not_executed {
+  background-color: #a5c639;
+  text-align: center;
+  vertical-align: top;
+}
+
+td.testname {
+  border: 1px outset #a5c639;
+  overflow: hidden;
+  padding: 1;
+  text-align: left;
+  vertical-align: top;
+}
+
+td.testcase {
+  border: 1px outset #a5c639;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 1;
+  text-align: left;
+  vertical-align: top;
+}
+
+div.details {
+  overflow: auto;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+</style>
+</head>
+
+<body>
+
+    <div>
+      <table class="title">
+        <tr>
+          <td align="left"><img src="images/logo.png"></td>
+          <td align="right"><h3>Device Automation</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <div>
+      <table class="summary">
+        <tr>
+          <th colspan="2">Summary</th>
+        </tr>
+        <tr>
+          <td class="rowtitle">Suite / Plan</td>
+          <td>Camera / front | Back</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Suite / Build</td>
+          <td>8.1_r5 / 4726866</td>
+        </tr>
+        
+        <tr>
+          <td class="rowtitle">Start time / End Time</td>
+          <td>Thu Jun 21 14:47:14 BDT 2018 /
+            Sat Jun 23 13:57:31 BDT 2018</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Tests Passed</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Tests Failed</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Modules Done</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Modules Total</td>
+          <td>1</td>
+        </tr>
+        
+      </table>
+    </div>
+    
+    <br />
+
+
+    
+    <div>
+      <table class="testdetails">
+        <tr>
+          <td class="module" colspan="3">WaltonCameraTestCases</td>
+        </tr>
+        <tr>
+          <th width="30%">Test</th>
+          <th width="5%">Result</th>
+          <th>Details</th>
+        </tr>
+        
+        <tr>
+          <td class="testname">android.autofillservice.cts.AttachedContextActivityTest#testAutofill</td>
+          <td class="passed"><div>Passed</div></td>
+          <td class="titledetails"><div class="details">android.autofillservice.cts.RetryableException: onFillRequest() not called in 2000 ms&#13;</div></td>
+        </tr>
+        
+     </table>
+   </div>
+
+</body>
+</html>

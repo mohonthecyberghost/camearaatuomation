@@ -1,0 +1,301 @@
+<html>
+<head>
+<title>Walton Camera Test Output</title>
+<style>
+
+body {
+  color: #333;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  margin: 10;
+  padding: 10;
+}
+
+/* Report logo and device name */
+table.title {
+  border-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+table.title img{
+	max-width:150px;
+}
+
+table.summary {
+  background-color: #a0b7d8;
+  border: 0 solid #a5c639;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.summary th {
+  background-color: #114c9d;
+  color:#fff;
+  font-size: 1.2em;
+  padding: .5em;
+}
+
+table.summary td {
+  border: 0 inset #808080;
+  font-size: 1em;
+  padding: .5em;
+  vertical-align: top;
+}
+
+table.testsummary {
+  background-color: #a0b7d8;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.testsummary th {
+  background-color: #114c9d;
+  border: 1px outset #808080;
+  padding: .5em;
+}
+
+table.testsummary td {
+  border: 1px outset #a5c639;
+  padding: .5em;
+  text-align: center;
+}
+
+table.testdetails {
+  background-color: #a0b7d8;
+  border-collapse: collapse;
+  border-color: #a5c639;
+  border-width: 1;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  width: 95%;
+}
+
+table.testdetails th {
+  background-color: #114c9d;
+  border: 1px outset #808080;
+  height: 2em;
+  padding: .2em;
+  color:#FFF;
+}
+
+table.testdetails td {
+  border: 1px outset #114c9d;
+  padding: .2em;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.testdetails td.module {
+  background-color: #fff;
+  border: 0;
+  font-weight: bold;
+}
+
+table.incompletemodules {
+  background-color: #d4e9a9;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.incompletemodules th {
+  background-color: #a5c639;
+  border: 1px outset #808080;
+  padding: .5em;
+}
+
+table.incompletemodules td {
+  border: 1px outset #a5c639;
+  padding: .5em;
+  text-align: center;
+}
+
+/* Test cell details */
+td.failed {
+  background-color: #fa5858;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  
+}
+td.passed {
+  background-color: #c5ffef;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  
+}
+td.failed div, td.passed div{
+	text-align:center;
+	margin-left:auto; margin-right:auto;
+}
+
+td.failuredetails {
+  text-align: left;
+}
+
+td.pass {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+td.not_executed {
+  background-color: #a5c639;
+  text-align: center;
+  vertical-align: top;
+}
+
+td.testname {
+  border: 1px outset #a5c639;
+  overflow: hidden;
+  padding: 1;
+  text-align: left;
+  vertical-align: top;
+}
+
+td.titledetails img{
+	max-width:300px;
+	width:100%;
+}
+
+td.titledetails .details{
+	float:left;
+	width:47%;
+	
+}
+
+td.titledetails .image{
+	float:right;padding:2%;
+}
+
+
+td.testcase {
+  border: 1px outset #a5c639;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 1;
+  text-align: left;
+  vertical-align: top;
+}
+
+div.details {
+  overflow: auto;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/*
+video{
+	height:300px;
+-moz-transform:scale(1) rotate(90deg);
+  -webkit-transform:scale(1) rotate(90deg);
+  -o-transform:scale(1) rotate(90deg);
+  -ms-transform:scale(1) rotate(90deg);
+  transform:scale(1) rotate(90deg); 
+  }
+*/
+</style>
+</head>
+
+<body>
+
+    <div>
+      <table class="title">
+        <tr>
+          <td align="left"><img src="http://192.168.5.175/walton-logo.png"></td>
+          <td align="right"><h3>Device Automation</h3></td>
+        </tr>
+      </table>
+    </div>
+    
+    <div>
+      <table class="summary">
+        <tr>
+          <th colspan="2">Summary</th>
+        </tr>
+        <tr>
+          <td class="rowtitle">Suite / Plan</td>
+          <td>${title}</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Suite / Build</td>
+          <td>8.1_r5 / 4726866</td>
+        </tr>
+        
+        <tr>
+          <td class="rowtitle">Start time / End Time</td>
+          <td>${start_time} / ${end_time} </td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Mobile Model</td>
+          <td>${mobile_model}</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Tests Passed</td>
+          <td>${tests_passed}</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Tests Failed</td>
+          <td>${tests_failed}</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Modules Done</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td class="rowtitle">Modules Total</td>
+          <td>1</td>
+        </tr>
+        
+      </table>
+    </div>
+    
+    <br />
+
+
+    
+    <div>
+      <table class="testdetails">
+        <tr>
+          <td class="module" colspan="3">WaltonCameraTestCases</td>
+        </tr>
+        <tr>
+          <th width="30%">Test</th>
+          <th width="5%">Result</th>
+          <th>Details</th>
+        </tr>
+        
+        <#list htmlValues as htmlValue>
+        	<tr>
+	          <td class="testname">${htmlValue.name}</td>
+	          <td class="passed"><div>Passed</div></td>
+	          <td class="titledetails">
+	          	<div class="details">
+	          		${htmlValue.info}
+	          	</div>
+	          	<div class="image">
+	          		${htmlValue.image}
+	          	</div>
+	          </td>
+	        </tr>
+        	
+	    </#list>
+        
+        
+        
+     </table>
+   </div>
+
+</body>
+</html>

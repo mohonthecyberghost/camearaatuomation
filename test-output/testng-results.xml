@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-08-12T10:19:48Z" name="Default suite" finished-at="2018-08-12T10:20:52Z" duration-ms="63976">
+    <groups>
+    </groups>
+    <test started-at="2018-08-12T10:19:48Z" name="Camera-Test-Suite" finished-at="2018-08-12T10:20:52Z" duration-ms="63976">
+      <class name="com.waltonbd.CameraHALTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.waltonbd.CameraHALTest@2e55dd0c]" started-at="2018-08-12T10:19:48Z" name="setup" finished-at="2018-08-12T10:19:48Z" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29ebbdf4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.waltonbd.CameraHALTest@2e55dd0c]" started-at="2018-08-12T10:19:48Z" name="setUp" finished-at="2018-08-12T10:20:25Z" duration-ms="36674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="WaltonCameraAutomationTest()[pri:1, instance:com.waltonbd.CameraHALTest@2e55dd0c]" started-at="2018-08-12T10:20:25Z" name="WaltonCameraAutomationTest" finished-at="2018-08-12T10:20:25Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaltonCameraAutomationTest -->
+        <test-method signature="backCamera13M_16_9_Process()[pri:2, instance:com.waltonbd.CameraHALTest@2e55dd0c]" started-at="2018-08-12T10:20:25Z" name="backCamera13M_16_9_Process" finished-at="2018-08-12T10:20:50Z" duration-ms="25191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backCamera13M_16_9_Process -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.waltonbd.CameraHALTest@2e55dd0c]" started-at="2018-08-12T10:20:50Z" name="teardown" finished-at="2018-08-12T10:20:52Z" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.waltonbd.CameraHALTest -->
+    </test> <!-- Camera-Test-Suite -->
+  </suite> <!-- Default suite -->
+</testng-results>

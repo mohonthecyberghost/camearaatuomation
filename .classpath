@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/java-client-6.1.0.jar" sourcepath="C:/Users/Hp/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/client-combined-3.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/client-combined-3.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/byte-buddy-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/gson-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/selenium-java-3.13.0/libs/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/commons-lang3-3.7-bin/commons-lang3-3.7/commons-lang3-3.7.jar" sourcepath="C:/Users/Hp/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/commons-lang3-3.7-bin/commons-lang3-3.7/commons-lang3-3.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/commons-lang3-3.7-bin/commons-lang3-3.7/commons-lang3-3.7-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/commons-lang3-3.7-bin/commons-lang3-3.7/commons-lang3-3.7-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/commons-lang3-3.7-bin/commons-lang3-3.7/commons-lang3-3.7-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/poi-contrib-3.0-rc4-20070503.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/xbean.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/ooxml-schemas-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/poi-ooxml-3.10-FINAL-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/jaxb-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/org.jboss.ide.eclipse.archives.feature.source_3.3.1.v20130102-1730-H94-Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/org.jboss.ide.eclipse.archives.feature_3.3.1.v20130102-1730-H94-Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hp/Desktop/test-apks/freemarker.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
